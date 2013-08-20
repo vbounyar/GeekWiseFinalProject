@@ -1,0 +1,20 @@
+
+<div ng-conroller="CommentCtrl">
+
+	<h2> Comments on {{project.title}} </h2>
+		
+	<div>
+		<!--probably have to use ng-repeat, filters and possible query-->
+		<label>Comments</label>
+		<br>
+		<textarea name="commentTextArea"> </textarea>
+		<br><br>
+	</div>
+	
+	<form name="commentButtonControl">
+		<!--Add comments will be a pop-up modal-->
+		<input class="btn" type="Submit" value="Add Comments">
+		<input class="btn" type="Submit" value="View All Comments">
+	</form>
+	
+</div>

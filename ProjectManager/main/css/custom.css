@@ -1,0 +1,57 @@
+ body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+		color: #ffffff;
+}
+
+textarea{
+	width: 400px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
+.panel-heading{
+	background-color: #46a546;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel{
+	background-color: #333333;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+	Used Beautiful Buttons for Twitter Bootstrappers, "http://charliepark.org/bootstrap_buttons/"
+*/
+.btn{
+  background-color: hsl(110, 56%, 16%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#398f28", endColorstr="#193f11");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#398f28), to(#193f11));
+  background-image: -moz-linear-gradient(top, #398f28, #193f11);
+  background-image: -ms-linear-gradient(top, #398f28, #193f11);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #398f28), color-stop(100%, #193f11));
+  background-image: -webkit-linear-gradient(top, #398f28, #193f11);
+  background-image: -o-linear-gradient(top, #398f28, #193f11);
+  background-image: linear-gradient(#398f28, #193f11);
+  border-color: #193f11 #193f11 hsl(110, 56%, 11%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+  
+  /*my codes*/
+  width:200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+.container{
+	padding:0px;
+}

@@ -1,0 +1,19 @@
+
+<h2> List Projects </h2>
+
+<ul ng-controller="ListCtrl">
+	<!-- two vars to store: id and project -->
+	<li ng-repeat = "(id, project) in projects">
+	<b>Title:</b> {{project.title}}  <br>
+	<a href="#/edit/{{id}}"> Edit </a> | 
+	<a href="#/delete/{{id}}"> Delete </a> |  
+	<a href="#/detail/{{id}}"> Detail </a> |
+	<a href="#/comment/{{id}}"> Comment </a>
+	</li>
+</ul>
+
+<a href="#/add">
+	<div class="btn">
+		 Add Projects 
+	</div>
+</a>

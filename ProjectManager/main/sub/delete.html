@@ -1,0 +1,15 @@
+
+
+
+<div ng-controller="DeleteCtrl">
+	<h2> Delete <b style="color:#F86030;">{{project.title}}</b>?</h2>
+	<br>
+	<b>Description:</b> {{project.description}} <br>
+	<b>Due Date:</b> {{project.duedate}} <br>
+	<b>Team:</b> {{project.team}} <br>
+	<b>Status:</b> {{project.status}} 
+	
+	<br><br>
+	
+	<input class="btn" type="button" value="Delete" buttonaction="deleteTheProject()">
+</div>

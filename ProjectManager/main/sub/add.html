@@ -1,0 +1,24 @@
+
+<h2> Add Project </h2>
+
+<div ng-conroller="AddCtrl">
+<form name="form">
+	<label> Title: </label> <input type="text" name="title" ng-model="project.title"> <br> <br>
+	<label>Description:</label> <textarea type="text" name="description" ng-model="project.description"></textarea> <br> <br>
+	<label>Due Date: </label> <input type="text" name="duedate" ng-model="project.duedate"> <br> <br>
+	<label> Team: </label> <input type="text" name="team" ng-model="project.team"> <br> <br>
+	<label> Project Status: </label> 
+	
+		<select name="status" ng-model="project.status">
+			<option value="Not Started">Not Started</option>
+			<option value="On Track">On Track</option>
+			<option value="Delayed">Delayed</option>
+			<option value="Completed">Completed </option>
+		</select>
+		
+	<br><br>
+	<input class="btn" type="button" value="Submit" buttonaction= "addTheProject()">
+	<input class="btn" type="button" value="Cancel" ng-click="clearTheForm()">
+</form>
+
+</div>
