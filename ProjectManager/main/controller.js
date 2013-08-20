@@ -4,6 +4,7 @@
 projectManager.controller("AppController", function($scope, $http){
 		$scope.method = "GET";
 		$scope.url = "data/project_test_data.json";
+		
 		$http({
 			method: $scope.method,
 			url: $scope.url
@@ -137,7 +138,7 @@ projectManager.directive("buttonaction", function () {
 //Only call this if services are established
 function update($scope, $http){
 		$scope.method = "POST";
-		$scope.url = "http://localhost/changeJsonFile.php";
+		$scope.url = "http://localhost/ProjectManager/main/changeJsonFile.php";
 		
 		$http({
 			method: $scope.method,
